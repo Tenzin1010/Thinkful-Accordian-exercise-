@@ -1,0 +1,32 @@
+li {
+    list-style: none;
+}
+
+/* ul li {
+    display: flex;
+    justify-content: space-between;
+
+} */
+
+
+ul li button:nth-child(odd) {
+    color: red;
+}
+
+ul li button:nth-child(even) {
+    color: blue;
+}
+
+.list-li {
+    padding: 10px;
+}
+
+.buttons {
+    margin: 20px;
+    display: block;
+}
+
+.content {
+    border: 2px solid teal;
+    text-align: center;
+}
